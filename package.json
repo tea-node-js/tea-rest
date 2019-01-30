@@ -1,0 +1,42 @@
+{
+  "name": "tea-rest",
+  "version": "1.1.7",
+  "description": "a koa rest runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=test && istanbul cover ./node_modules/mocha/bin/_mocha ./test/*.js -- -R spec",
+    "lint": "eslint {./index.js,./lib,./test} && echo '\u001b[32m\u001b[1mEslint validate success.\u001b[22m\u001b[39m'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tea-node/tea-rest.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "tea-rest"
+  ],
+  "author": "baiyu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tea-node/tea-rest/issues"
+  },
+  "homepage": "https://github.com/tea-node/tea-rest#readme",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "bunyan": "^1.8.12",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "lodash": "^4.17.11",
+    "tea-router": "^1.0.3",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "istanbul": "^1.0.0-alpha.2",
+    "mocha": "^5.2.0"
+  }
+}
