@@ -1,6 +1,6 @@
 {
   "name": "tea-rest",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "a koa rest runner",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tea-node/tea-rest.git"
+    "url": "git+https://github.com/tea-node-js/tea-rest.git"
   },
   "keywords": [
     "rest",
@@ -19,16 +19,16 @@
   "author": "baiyu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tea-node/tea-rest/issues"
+    "url": "https://github.com/tea-node-js/tea-rest/issues"
   },
-  "homepage": "https://github.com/tea-node/tea-rest#readme",
+  "homepage": "https://github.com/tea-node-js/tea-rest#readme",
   "dependencies": {
     "@koa/cors": "^2.2.3",
     "bunyan": "^1.8.12",
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
     "lodash": "^4.17.11",
-    "tea-router": "^1.0.3",
+    "tea-router": "^1.0.4",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
