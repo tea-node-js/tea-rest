@@ -1,6 +1,6 @@
 {
   "name": "tea-rest",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "a koa rest runner",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
     "lodash": "^4.17.11",
-    "tea-router": "^1.0.4",
+    "tea-router": "^1.0.6",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
